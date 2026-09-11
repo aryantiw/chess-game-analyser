@@ -1,0 +1,17 @@
+# Python environments and generated files
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Stockfish is downloaded separately because GitHub limits files to 100 MB
+backend/stockfish/*.exe
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
